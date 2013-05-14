@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Minesweeper
 {
-    class SafeCell
+    class SafeCell : Cell
     {
         internal int cellValue;
 

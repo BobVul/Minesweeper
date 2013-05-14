@@ -40,6 +40,8 @@
             this.drawingBoard.Size = new System.Drawing.Size(284, 261);
             this.drawingBoard.TabIndex = 0;
             this.drawingBoard.TabStop = false;
+            this.drawingBoard.Paint += new System.Windows.Forms.PaintEventHandler(this.drawingBoard_Paint);
+            this.drawingBoard.MouseClick += new System.Windows.Forms.MouseEventHandler(this.drawingBoard_MouseClick);
             // 
             // MainForm
             // 
