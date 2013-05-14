@@ -7,7 +7,7 @@ namespace Minesweeper
 {
     class SafeCell : Cell
     {
-        internal int cellValue;
+        protected int cellValue;
 
         /// <summary>
         /// The value of the cell.

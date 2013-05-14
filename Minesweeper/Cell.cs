@@ -7,8 +7,8 @@ namespace Minesweeper
 {
     class Cell
     {
-        internal bool marked;
-        internal bool exposed;
+        protected bool marked;
+        protected bool exposed;
 
         /// <summary>
         /// Whether the cell has been marked as a mine by the player.
